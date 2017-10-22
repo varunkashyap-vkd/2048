@@ -524,8 +524,8 @@ var game2048 = (function()
 		down.addEventListener('click', swipe.bind(this, {keyCode : 40}));
 
 		document.addEventListener('keydown', swipe);
-		backButton.addEventListener('click', backFunction);
 		keepGoing.addEventListener('click', keepGoingFun);
+		backButton.addEventListener('click', backFunction);
 		reDrawBoard();
 	}
 
